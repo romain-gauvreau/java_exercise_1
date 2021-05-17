@@ -8,10 +8,10 @@ public class Launcher {
 
         String quitCommand = "quit";
 
-        if (!inputCommand.equals(quitCommand))
+        while(!inputCommand.equals(quitCommand))
         {
             System.out.println("Unknown command");
-
+            inputCommand = myObj.nextLine();
         }
     }
 }
