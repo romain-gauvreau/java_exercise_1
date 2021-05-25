@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Launcher {
     public static void main(String[] args) {
-        List<Command> commands = List.of(new Quit(), new Fibo(), new Freq());
+        List<Command> commands = List.of(new Quit(), new Fibo(), new Freq(), new Predict());
 
         Scanner scanner = new Scanner(System.in);
         boolean shouldQuit = false;
